@@ -1,0 +1,26 @@
+
+.l-content{
+    width:245px ;
+    margin-top: 30px;
+}
+/*************输入框组******************/
+.l-content .item{
+    position: relative;
+    margin-bottom: 20px;
+}
+.l-content input{
+    width: 225px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border:1px solid #cccccc;
+    outline: none;
+    padding: 0 8px;
+}
+.l-content .item label{
+    position: absolute;
+    left: 20px;
+    top: -12px;
+    padding: 0 5px;
+    background-color: white;
+}
