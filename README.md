@@ -12,8 +12,8 @@
     $.call({
                 //get or post请求
                 type: 'post',
-                //请求url地址
-                url:  'http://'+ apiURL + '/index.php?                          i=5000&tsy=' + home.tsy,
+                //请求i地址 前提是已经配置全局apiURL,例如：var apiURL = 'https://api.tansuyun.cn/index.php?i=';
+                i:5,
                 //发送的数据
                 data: {"Number": 6},
                 //请求成功时的回调函数
