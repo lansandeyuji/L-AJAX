@@ -3,7 +3,8 @@
  */
 require.config({
     paths: {
-        exampleJs:"../../soul/example.js"
+        example0Js:"../../soul/example0.js",//兼容ie6+
+        example1Js:"../../soul/example1.js"//兼容ie10+
     }
 });
 //全局接口地址

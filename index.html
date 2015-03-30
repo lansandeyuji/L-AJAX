@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/btn.css"/>
     <link rel="stylesheet" href="./src/css/example.css"/>
-
+    <link rel="stylesheet" href="./src/css/local.css"/>
 </head>
 
 <body>
@@ -52,12 +52,18 @@
 </div>
 
 <!--fm-->
-<script  src="./src/js/avalon.js"></script>
-<script  src="./src/js/mmRequest.js"></script>
+<!--<script  src="./src/js/avalon.js"></script>-->
+<script src="./src/js/avalon.mobile.js"></script> <!--支持手机上的触屏事件-->
+<script src="./src/js/mmRequest.js"></script>
 <script src="./src/js/jquery-1.10.2.min.js" type="text/javascript"></script>
 
 <!--tansuyun plugins-->
-<script  src="./plugins/call.js"></script>
+<!--兼容ie7+-->
+<!--<script src="./plugins/call.js"></script>-->
+<!--兼容ie10+-->
+<script  src="./plugins/callMobile.js"></script>
+
+
 
 <script src="./config.js"></script>
 <script src="./router.js"></script>

@@ -1,4 +1,6 @@
-
+/**
+ * Created by lili on 2015/3/30. 使用call直接请求。
+ */
 //example作用域
 define('example', function () {
     return example = avalon.define({
@@ -6,7 +8,9 @@ define('example', function () {
         login_account:'',//登陆用户名
         login_pwd:'',//登陆密码
         login: function () {//登陆事件
-            $.call({
+
+      //兼容ie10以上的浏览器
+            call({
                 type: 'post',
                 i: 5,
                 data: {account: example.login_account, pwd: example.login_pwd},

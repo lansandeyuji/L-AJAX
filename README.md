@@ -1,3 +1,5 @@
+##当前工程默认是示例1可以使用。 若需使用示例0 请引入call.js 代替callMobile.js ##
+
 # call.js    解决ajax跨域请求的浏览器兼容问题
 
                     ie8、9  ajax  跨域
@@ -56,3 +58,24 @@
  ```
 
 
+### 示例说明 ###
+
+*    **示例0**：
+    ** *使用场景***：兼容ie6+ 需引入avalon.js
+    ** *使用方法***：
+    ```javascript
+          $.call({
+
+          });
+     ```
+     ** *注意事项***：检查index,请确保引入call.js
+
+*    **示例1**：
+    ** *使用场景***：兼容ie10+ 若手机端使用则引入avalon.mobile.js
+    ** *使用方法***：
+     ```javascript
+              call({
+
+              });
+     ```
+      ** *注意事项***：检查index,请确保引入callMobile.js

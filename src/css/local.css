@@ -1,0 +1,23 @@
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #a99434;
+    border: 1px solid white;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    line-height: 30px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    height:100% ;
+}
+li a:visited{
+    color: white;
+}
+.l-content{
+    margin-left: 50px;
+}
