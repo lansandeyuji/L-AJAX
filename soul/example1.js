@@ -10,7 +10,7 @@ define('example', function () {
         login: function () {//登陆事件
 
       //兼容ie10以上的浏览器
-            call({
+             call({
                 type: 'post',
                 i: 5,
                 data: {account: example.login_account, pwd: example.login_pwd},
